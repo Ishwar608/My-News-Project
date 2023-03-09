@@ -1,15 +1,13 @@
 import { Button, Card, CardActions, CardContent, CardMedia, Stack, Typography } from '@mui/material'
 import React from 'react'
 import DeleteIcon from '@mui/icons-material/Delete';
-import { ShowMoreData } from './ShowMoreData';
 import EditIcon from '@mui/icons-material/Edit';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import { useNavigate } from 'react-router';
-import { useSelector } from 'react-redux';
 
-export default function NewBlog({items, remove }) {
+export default function NewBlog({ items, remove }) {
     const myNav = useNavigate();
-  
+
     return (
         <Stack
             direction="row"

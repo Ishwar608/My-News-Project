@@ -27,7 +27,6 @@ export default function AddEditNew() {
     publishedBy: ""
   });
   const [editMode, setEditMode] = useState(false);
-  const [isloadding, setisLoading] = useState(true);
 
   const myNav = useNavigate();
   const { id } = useParams();
